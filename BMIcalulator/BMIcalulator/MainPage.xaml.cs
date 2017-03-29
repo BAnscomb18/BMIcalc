@@ -26,5 +26,10 @@ namespace BMIcalulator
         {
             this.InitializeComponent();
         }
+        private double BMI(double height, double weight)
+        {
+            double BMI = weight / height / height;
+            return BMI;
+        }
     }
 }
