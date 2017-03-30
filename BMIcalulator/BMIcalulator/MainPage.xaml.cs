@@ -22,12 +22,18 @@ namespace BMIcalulator
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
             this.InitializeComponent();
+            string height = textBlock1.Text;
+            string weight = textBlock2.Text;
+            double w = Convert.ToDouble(weight);
+            double h = Convert.ToDouble(height);
+            
         }
 
-        private void textBlock1_SelectionChanged(System.Object sender, RoutedEventArgs e)
+        private void textBlock1_SelectionChanged(System.Object sender, RoutedEventArgs e) 
         {
 
         }
