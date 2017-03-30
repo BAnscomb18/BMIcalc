@@ -7,20 +7,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIcalulator", "BMIcalulato
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BMI Calculation", "BMI Calculation", "{3224B80A-69C4-402D-9F87-7F8EF1CB5C00}"
 	ProjectSection(SolutionItems) = preProject
-		BMIcalulator\MainPage.xaml = BMIcalulator\MainPage.xaml
-		BMIcalulator\MainPage.xaml.cs = BMIcalulator\MainPage.xaml.cs
+		BMI_Calculate.cs = BMI_Calculate.cs
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|ARM.ActiveCfg = Debug|ARM
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|ARM.Build.0 = Debug|ARM
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -30,6 +32,7 @@ Global
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|x86.ActiveCfg = Debug|x86
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|x86.Build.0 = Debug|x86
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Debug|x86.Deploy.0 = Debug|x86
+		{6CE98602-57A0-47E1-993F-9817F07CED57}.Release|Any CPU.ActiveCfg = Release|x86
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Release|ARM.ActiveCfg = Release|ARM
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Release|ARM.Build.0 = Release|ARM
 		{6CE98602-57A0-47E1-993F-9817F07CED57}.Release|ARM.Deploy.0 = Release|ARM
