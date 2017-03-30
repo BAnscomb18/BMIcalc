@@ -26,5 +26,30 @@ namespace BMIcalulator
         {
             this.InitializeComponent();
         }
+
+        private void textBlock1_SelectionChanged(System.Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock2_SelectionChanged(System.Object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(System.Object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(System.Object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged_1(System.Object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
