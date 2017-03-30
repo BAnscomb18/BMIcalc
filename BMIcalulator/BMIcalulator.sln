@@ -7,8 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIcalulator", "BMIcalulato
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BMI Calculation", "BMI Calculation", "{3224B80A-69C4-402D-9F87-7F8EF1CB5C00}"
 	ProjectSection(SolutionItems) = preProject
-		BMIcalulator\MainPage.xaml = BMIcalulator\MainPage.xaml
-		BMIcalulator\MainPage.xaml.cs = BMIcalulator\MainPage.xaml.cs
+		BMI_Calculate.cs = BMI_Calculate.cs
 	EndProjectSection
 EndProject
 Global
